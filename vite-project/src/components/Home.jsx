@@ -1,16 +1,12 @@
-import React from "react";
-import "../CSS/Home.css"
+import React, { Component } from 'react'
 
-class Home extends React.Component{
-    render(){
-        return(
-            <div className="homepage">
-                <h1 className="text">Quiz App</h1>
-                <button className="playbuttn" >Play</button>
-            </div>
-        )
-    }
+export default class HomeComponent  extends Component {
+  render() {
+    return (
+      <div className='home'>
+        <h3>Quiz App</h3>
+        <button className='start'>Play</button>
+      </div>
+    )
+  }
 }
-
-
-export default Home;

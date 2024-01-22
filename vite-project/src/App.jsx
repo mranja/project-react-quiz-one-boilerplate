@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Home'
-
-
+import HomeComponent from './components/Home';
+import QuizComponent from './components/Quiz';
+import ResultComponent from './components/Result';
 
 function App() {
   return (
     <div className="App">
-        <Home/>
-        
-
+      <HomeComponent/>
+      <QuizComponent/>
+      <ResultComponent/>
     </div>
   );
 }
